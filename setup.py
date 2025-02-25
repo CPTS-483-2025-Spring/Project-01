@@ -25,7 +25,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'fk_node = project_01_solution.franka_fk:main'
+            'fk_node = project_01.franka_fk:main'
         ],
     },
 )
